@@ -1,0 +1,17 @@
+.hoge {
+  .moja {
+    .piyo {
+      .fuga {
+        @for $i from 0 through 10000 {
+          .p__#{$i} {
+            background: #ccffdd;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+

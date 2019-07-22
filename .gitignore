@@ -1,0 +1,11 @@
+/node_modules
+/.idea/190722_css_optimize.iml
+/.idea/codeStyles/codeStyleConfig.xml
+/.idea/codeStyles/Project.xml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/vcs.xml
+/.idea
+/node
+/yarn-error.log
+/yarn.lock
