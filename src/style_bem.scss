@@ -1,8 +1,12 @@
 .hoge {
+  // .hoge_moja
   &_moja {
+    // .hoge_moja_piyo
     &_piyo {
+      // .hoge_moja_piyo_fuga
       &_fuga {
         @for $i from 0 through 10000 {
+          // .hoge_moja_piyo_p__#{$i}
           &_p__#{$i} {
             background: #ccffdd;
           }
@@ -11,7 +15,3 @@
     }
   }
 }
-
-
-
-

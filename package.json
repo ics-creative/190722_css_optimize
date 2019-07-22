@@ -19,7 +19,7 @@
   "scripts": {
     "build": "webpack",
     "generate": "node node/main.js",
-    "format": "prettier --write 'src/**/*.{js,css}'",
+    "format": "prettier --write 'src/**/*.{js,scss}'",
     "format-dist": "prettier --write 'docs/**/*.html'"
   }
 }
