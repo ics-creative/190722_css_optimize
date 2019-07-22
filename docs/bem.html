@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <title>CSS Performance - ICS MEDIA</title>
     <script>
-      const timeHead = Date.now();
+      var timeHead = new Date().getTime();
     </script>
     <style>
       .hoge_moja_piyo_fuga_p__0 {
@@ -128019,8 +128019,8 @@
       </div>
     </div>
     <script>
-      const timeNow = Date.now();
-      window.logArea.textContent = timeNow - timeHead + " ms";
+      var timeNow = new Date().getTime();
+      window.logArea.textContent = timeNow - timeHead + "";
     </script>
   </body>
 </html>

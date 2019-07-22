@@ -7,7 +7,9 @@ export default ({ style, selectorName, title }) => (
       <meta charSet="utf-8" />
       <title>CSS Performance - ICS MEDIA</title>
       <script
-        dangerouslySetInnerHTML={{ __html: `const timeHead = Date.now();` }}
+        dangerouslySetInnerHTML={{
+          __html: `var timeHead = new Date().getTime();`
+        }}
       />
       <style dangerouslySetInnerHTML={{ __html: style }} />
     </head>
@@ -33,8 +35,8 @@ export default ({ style, selectorName, title }) => (
       <script
         dangerouslySetInnerHTML={{
           __html: `
-        const timeNow = Date.now();
-        window.logArea.textContent = (timeNow - timeHead) + " ms";`
+        var timeNow = new Date().getTime();
+        window.logArea.textContent = (timeNow - timeHead) + "";`
         }}
       />
     </body>
